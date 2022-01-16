@@ -1,0 +1,23 @@
+.heading{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    height : 200px;
+    width : 200px;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content :space-around;
+}
+.child{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+}
+.child:hover{
+    box-shadow: 0px 10px 50px blue;
+}
